@@ -1,0 +1,28 @@
+.search{
+    border-radius: 25px;
+    background-color: white;
+    padding-right:30px;
+    padding-left:30px;
+    border-color: darkturquoise;
+    color: darkturquoise;
+    font-size: 20px;
+}
+
+.plus{
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    background-color:darkturquoise;
+    border-style: hidden;
+}
+
+.Account{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    background-color: blue;
+}
