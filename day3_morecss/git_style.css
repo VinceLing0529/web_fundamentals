@@ -1,0 +1,28 @@
+img {
+    height: 200px;
+}
+.background{
+    background-color: gainsboro;
+    text-align: center;
+}
+.blue_container{
+    padding: 20px;
+    margin: 20px;
+    background-color: blue;
+    display: flex;
+    justify-content:space-between ;
+}
+.pink_container{
+    padding: 20px;
+    margin: 20px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+.white_container{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    justify-content:space-between ;
+}
