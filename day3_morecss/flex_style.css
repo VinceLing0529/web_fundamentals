@@ -1,0 +1,28 @@
+.nav{
+    padding:5px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    color: white;
+    font-family: 'Roboto', sans-serif;    
+}
+.nav-links{
+    color: gray;
+    width: 500px;
+    display: flex;  
+    justify-content: space-around;
+}
+
+.active{
+    color: white;
+}
+.btn{
+    
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    background-color: blue;
+}
