@@ -1,19 +1,17 @@
 .container{
+    padding: 20px;
     width: 950px;
     background-color: silver;
     margin: 0px auto;
 }
 .top-nav {
-    position:relative;
-    top: 20px;
-    margin: 20px;
+
+   
     height: 150px;
     background-color: green;
 }
 .side-nav {
-    position: relative;
-    top: 20px;
-    margin: 20px;
+    margin-top: 20px;
     height: 300px;
     width: 200px;
     background-color: blue;
