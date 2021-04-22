@@ -31,35 +31,43 @@
 }
 
 
-.usercard{
-    margin: 20px;
-    height: 400px;
-    width: 70%;
-    flex: 1;
-    background-color: grey;
-    display: inline-block;
+.whole{
+    display: flex;
+    justify-content: space-evenly;
+
 }
-.Connections{
+
+.left{
     margin: 20px;
-    height: 200px;
-    width: 20%;
-    background-color: red;
-    display: inline-block;
-    vertical-align: top;
+    flex: 2;
 }
+
+.right{
+
+    margin: 20px;
+    
+    flex:1;
+}
+
+.profile{
+    margin: 20px;
+    background-color: black;
+    height: 300px;
+}
+
 .education{
     margin: 20px;
-    height: 400px;
-    width: 70%;
-    flex: 1;
-    background-color: grey;
-    display: inline-block;
+    background-color: black;
+    height: 300px;
 }
-.own{
+.connections{
     margin: 20px;
-    height: 200px;
-    width: 20%;
-    background-color: red;
-    display: inline-block;
-    
+    background-color: black;
+    height: 150px;
+
+}
+.my_connections{
+    margin: 20px;
+    background-color: black;
+    height: 500px;
 }
