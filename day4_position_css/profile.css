@@ -33,41 +33,89 @@
 
 .whole{
     display: flex;
-    justify-content: space-evenly;
-
+ 
 }
 
 .left{
     margin: 20px;
-    flex: 2;
+    flex: 5;
 }
 
 .right{
 
     margin: 20px;
     
-    flex:1;
+    flex:3;
 }
 
 .profile{
     margin: 20px;
-    background-color: black;
-    height: 300px;
+    margin-left: 200px;
+
+    background-color: white;
+    height: 500px;
 }
 
 .education{
     margin: 20px;
-    background-color: black;
-    height: 300px;
+    margin-left: 200px;
+    
+    border-style: solid;
+    background-color: white;
+    height: 500px;
 }
 .connections{
     margin: 20px;
-    background-color: black;
-    height: 150px;
+    
+    background-color: white;
+    height: 250px;
 
 }
 .my_connections{
     margin: 20px;
+    
+    background-color: white;
+    height: 550px;
+}
+.head{
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-indent: 10px;
+    height: 50px;
     background-color: black;
-    height: 500px;
+    color: white;
+}
+.profilehead{
+    height: 150px;
+    background-color: aqua;
+}
+.name_p_a{
+    display: flex;
+    align-items: center;
+   
+}
+.small_choice{
+
+    height: 100px;
+}
+.small{
+    border-radius: 50%;
+    height: 100px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+
+}
+.btn1{
+        font-size: 20px;
+        color: black;
+      
+
+}
+.content{
+    border-style:solid;
 }
