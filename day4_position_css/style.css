@@ -1,0 +1,42 @@
+
+.container{
+    position:relative;
+    left: 25%;
+}
+.head{
+   
+    width: 504px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.content{
+    
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border-style:solid;
+    border-color: gray;
+}
+
+.usercircle{
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.location{
+    display: flex;
+    align-items: center;
+
+}
+
+.jane{
+    position: relative;
+    top: 20px;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    color: blue;
+}
