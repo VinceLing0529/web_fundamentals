@@ -51,7 +51,7 @@
 .profile{
     margin: 20px;
     margin-left: 200px;
-
+    border-style: solid;
     background-color: white;
     height: 500px;
 }
@@ -118,4 +118,31 @@
 }
 .content{
     border-style:solid;
+}
+.selfie{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 75px;
+    left: 50px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+
+}
+
+.jane{
+    position: relative;
+    top: 40px;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+.text_margin{
+    text-indent: 20px;
 }
