@@ -1,0 +1,65 @@
+.nav{
+    padding:5px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-title{
+    color: white;
+    font-family: 'Roboto', sans-serif;    
+}
+.nav-links{
+    position: relative;
+    right: 100px;
+    width: 500px;
+    display: flex;  
+    justify-content:space-evenly;
+}
+.nonactive{
+    color: gray;
+}
+.active{
+    color: white;
+}
+.btn{
+
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    background-color: blue;
+}
+
+
+.usercard{
+    margin: 20px;
+    height: 400px;
+    width: 70%;
+    flex: 1;
+    background-color: grey;
+    display: inline-block;
+}
+.Connections{
+    margin: 20px;
+    height: 200px;
+    width: 20%;
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+}
+.education{
+    margin: 20px;
+    height: 400px;
+    width: 70%;
+    flex: 1;
+    background-color: grey;
+    display: inline-block;
+}
+.own{
+    margin: 20px;
+    height: 200px;
+    width: 20%;
+    background-color: red;
+    display: inline-block;
+    
+}
