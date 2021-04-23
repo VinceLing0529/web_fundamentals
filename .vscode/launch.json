@@ -12,7 +12,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\day5_js\\loop_challenges.js"
+            "program": "${workspaceFolder}\\day5_js\\array_challenges.js"
         }
     ]
 }
