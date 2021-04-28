@@ -1,0 +1,91 @@
+.nav {
+    height: 80px;
+    background-color: #9FC5F8;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    width: 50%;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.nav-links a.active {
+    color: #fff;
+    font-weight: bold;
+}
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-container, .nav-links, .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.changetem{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.weather-block{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.weather{
+    text-align: center;
+    margin: 30px;
+    flex:1;
+    display: inline-block;
+    height: 400px;
+    background-color: lightgray;
+
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.te{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cookie{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: fixed;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1500px;
+}
+
+.btn{
+    background-color: lightblue;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px black;
+}
