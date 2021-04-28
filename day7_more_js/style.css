@@ -1,0 +1,10 @@
+.bor{
+    height: 300px;
+    width: 600px;
+    border-style: solid;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
